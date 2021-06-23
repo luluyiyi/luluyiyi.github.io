@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+@media(min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+    
+   
+}
+
+
+
+
+.navbar .container .collapse .navbar-nav a {
+    color: #fff;
+    border-radius: 2px;
+    
+}
+.navbar .container .collapse .navbar-nav a:hover {
+    background: #fff;
+    color: #000;
+}
+
+
+/* section-0*/
+.section-0 .container .bubbles img {
+    width: 50px;
+    animation: bubble 7s linear infinite;
+}
+
+.section-0 .container .bubbles {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    
+    
+}
+@keyframes bubble {
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        
+        opacity: 1;
+    }
+    70%{
+        
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+
+
+.section-0 .container .bubbles img:nth-child(1) {
+    animation-delay: 2s;
+    width: 25px;
+}
+.section-0 .container .bubbles img:nth-child(2) {
+    animation-delay: 1s;
+    
+    
+}
+.section-0 .container .bubbles img:nth-child(3) {
+    animation-delay: 3s;
+    
+}
+.section-0 .container .bubbles img:nth-child(4) {
+    animation-delay: 4.5s;
+    width: 20px;
+    
+}
+.section-0 .container .bubbles img:nth-child(5) {
+    animation-delay: 3s;
+    width: 35px;
+    
+}
+.section-0 .container .bubbles img:nth-child(6) {
+    animation-delay: 6s;
+    
+}
+
+
+
+
+.section-0 .container .btn {
+    color: #fff;
+    transition: color 1s;
+    background: #07bef5;
+    
+}
+
+
+
+
+
+
+
+
+.section-0 .container .btn:hover {
+    background: #f2f2f2;
+    color: #07bef5;
+    
+    
+}   
+
+
+.yaa .container .btn:hover {
+    background: #f2f2f2;
+    color: #07bef5;
+    
+}   
+.yaa .container .btn {
+    color: #fff;
+    transition: color 0.5s;
+    background: #07bef5;
+    
+}
+
+
+.main .section-1 {
+    padding: 20vmin 0;
+}
+
+.main .section-1 .row .col-md-6 .pray img {
+    opacity: 0.8;
+    width: 100%;
+    border-radius: 0.2em;
+}
+
+.main .section-1 .row .col-md-6:last-child {
+    position: relative;
+}
+
+.main .section-1 .row .col-md-6 .panel {
+    position: absolute;
+    top: 7vmin;
+    left: -18vmin;
+    background: #fff;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 15vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    
+}
+
+/*section-2*/
+
+.main .cover{
+    width: 100%;
+    height: 55vmin;
+    background: url(beach.jpg);
+    background-position: -10rem -38rem;
+    background-size: 130%;
+    position: relative;
+}
+.main .cover .content {
+    background: rgba(0, 0, 0, 0.56);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+}
+.main .cover .content>h1 {
+    font-weight: 500;
+    font-size: 6vmin;
+    color: #fff;
+}
+.main .cover .content>p {
+    font-weight: 200;
+    font-size: 2vmin;
+    color: #fff;
+}
+.main .numbers .rect{
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: .5em;
+    box-shadow: 1px 2px 50px 0px #48aaff;
+}
+
+.main .numbers {
+    margin-top: -15vmin;
+}
+
+.main .numbers .rect h1 {
+    font-size: 5rem;
+    color: #00ceff;
+}
+
+.main .purchase>h1 {
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+    font-weight: bold;
+    color: #505050;
+}
+
+.main .purchase>p {
+    color: #939393;
+    font-size: 2vmin;
+    padding-bottom: 10vmin;
+    
+}
+.main .purchase .cards .card {
+    width: 22rem;
+    margin: 3vmin;
+}
+
+.main .card div {
+    padding: 0;
+    margin: 0;
+}
+.main .card .title {
+    background: rgba(206, 206, 206, 0.19);
+    padding: 1.4rem 2.5rem;
+    font-size: 3vmin;
+    color: #00ceff;
+    
+    
+}
+
+.main .card .card-text {
+    padding: 2.5rem 3rem;
+    color: #939393;
+    
+}
+.main .card-body .pricing {
+    background: rgba(206, 206, 206, 0.19);
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
+}
+
+.main .card-body .pricing>h1 {
+    font-size: 5vmin;
+    padding: 1em 0.5em;
+}
+
+/*section-4*/
+
+.main .section-4 .container h1 {
+    font-size: 5vmin;
+    padding-top: 10vmin;
+    font-weight: bold;
+    color: #505050;
+    
+}
+.main .section-4 .container p {
+    color: #939393;
+    font-size: 2vmin;
+    padding-bottom: 5vmin;
+}
+.main .section-4 .card {
+    width: 22rem;
+   
+}
+
+.main .section-4 .card .img {
+    margin: 0;
+    padding: 0;
+}
+
+.main .section-4 .card .card-text {
+    padding: 1em;
+}
+
+
+.main .section-4 .team {
+    margin: 0;
+}
+
+
+
+/*section-2 btn*/
+.section-2 .purchase .cards .btn {
+    color: #fff;
+    transition: color 1s;
+    background: #000;
+    
+}
+
+
+.section-2 .purchase .cards .btn:hover {
+    background: #000;
+    color: #07bef5;
+    
+    
+}
+
+
+
+
+
+
+/*footer*/
+
+.footer {
+    margin-top: 10rem;
+    background: rgba(0, 0, 0, 0.81);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+.footer {
+    border: none!important;
+}
+
+.footer .input::placeholder {
+    color: #fff!important;
+}
+.footer .input-group .input-group-text {
+    background: #00ceff;
+}
+.footer .column i {
+    color: #00ceff;
+}
+
+.footer .column i+i {
+    padding: 0 0.5em;
+}
+
+
+/*sticky*/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.76);
+    z-index: 9999;
+    transition: all 1.5s ease;
+}
+
+
+
+
+
